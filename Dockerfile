@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-alpine
+FROM registry.dataos.io/library/ruby:2.3.1-alpine
 
 ADD redis-trib.rb  /usr/local/bin/redis-trib.rb
 
